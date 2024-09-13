@@ -64,7 +64,7 @@ const holdScore = () => {
     document.querySelector(`#score--${activePlayer}`).textContent =
       score[activePlayer];
 
-    if (score[activePlayer] >= 10) {
+    if (score[activePlayer] >= 100) {
       playing = false;
       diceImage.classList.add('hidden');
       document
